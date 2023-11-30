@@ -1,0 +1,40 @@
+.transaction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding: 0px 20px;
+}
+
+.detail {
+  width: 30%;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.delete {
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-img {
+  height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .transaction {
+    padding: 0px 10px;
+  }
+  .detail {
+    width: 40%;
+    font-size: 14px;
+  }
+  .delete {
+    margin-right: -5%;
+  }
+}
